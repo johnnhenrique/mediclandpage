@@ -8,7 +8,7 @@
 :root {
     font-size: 62.5%; /* 1rem = 10px */
     
-    --hue: 180;
+    --hue: 45;
 
     --primary-color: hsl(var(--hue), 100%, 26%);
     --headline-color: hsl(0, 0%, 0%);
@@ -37,7 +37,7 @@ html, body {
 body {
     background-color: var(--background-light-color);
 
-    font-family: 'DM Sans', sans-serif;
+    font-family: 'Gill Sans', sans-serif;
     font-size: 1.6rem;
 
     text-align: center;
@@ -375,11 +375,32 @@ body.menu-expanded button path {
     border: 1px solid var(--brand-light-color);
     border-radius: 0.6rem;
 
-    text-align: left;
+    text-align: auto;
 }
 
 #services .card h3 {
     margin-block: 1.6rem;
+}
+
+.image-slider {
+    position: relative;
+    width: 100%; /* Largura total do slider */
+    height: 190px; /* Ajuste a altura conforme necessário */
+    overflow: hidden;
+}
+
+.slider-image {
+    width: 100%; /* Ocupa toda a largura */
+    height: 100%; /* Ajuste a altura conforme necessário */
+    position: absolute; /* Sobrepõe as imagens */
+    top: 0;
+    left: 0;
+    opacity: 0; /* Começa invisível */
+    transition: opacity 0.7s ease; /* Transição suave de opacidade */
+}
+
+.slider-image.active {
+    opacity: 1; /* A imagem ativa tem opacidade total */
 }
 
 /* ====================== ABOUT ===================== */
