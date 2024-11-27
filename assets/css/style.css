@@ -443,7 +443,7 @@ body.menu-expanded button path {
 
 /* ======================= FOOTER ==================== */
 footer {
-    background-color: var(--primary-color);
+    background-color: rgb(201, 108, 181);
     color: #FFFFFF;
     text-align: left;
 
@@ -478,10 +478,10 @@ footer .social-links {
 /* BACK TO TOP */
 #backToTopButton {
     position: fixed;
-    bottom: 1rem;
+    bottom: 5rem;
     right: 2.5rem;
 
-    opacity: 0;
+    opacity: 5;
     visibility: hidden;
 
     transform: translateY(100%);
