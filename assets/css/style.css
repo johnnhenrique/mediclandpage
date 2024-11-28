@@ -357,6 +357,27 @@ body.menu-expanded button path {
     margin: 0;
 }
 
+/* Efeitos de transição */
+#home .wrapper {
+    opacity: 1;
+    transform: translateY(50px);
+    transition: all 2.0s ease-in-out;
+}
+
+#home .col-a, #home .col-b, #home .stats .stat {
+    transition: transform 0.9s, opacity 0.9s ease-in-out;
+}
+
+#home .button {
+    transition: background-color 0.9s, transform 0.9s;
+}
+
+#home .button:hover {
+    transform: scale(1.1);
+    background-color: #d266c0;
+}
+
+
 /* ==================== SERVICES ==================== */
 #services header h2 {
     margin-bottom: 6rem;
