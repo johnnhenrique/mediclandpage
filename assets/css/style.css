@@ -360,8 +360,8 @@ body.menu-expanded button path {
 /* Efeitos de transição */
 #home .wrapper {
     opacity: 1;
-    transform: translateY(50px);
-    transition: all 2.0s ease-in-out;
+    transform: translateY(30px);
+    transition: all 1.0s ease-in-out;
 }
 
 #home .col-a, #home .col-b, #home .stats .stat {
