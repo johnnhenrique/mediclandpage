@@ -360,8 +360,8 @@ body.menu-expanded button path {
 /* Efeitos de transição */
 #home .wrapper {
     opacity: 1;
-    transform: translateY(30px);
-    transition: all 1.0s ease-in-out;
+    transform: translateY(20px);
+    transition: all 2.0s ease-in-out;
 }
 
 #home .col-a, #home .col-b, #home .stats .stat {
@@ -373,12 +373,12 @@ body.menu-expanded button path {
 }
 
 #home .button:hover {
-    transform: scale(1.1);
+    transform: scale(1.2);
     background-color: #d266c0;
 }
 
 
-/* ==================== SERVICES ==================== */
+/* ==================== SERVIÇOS ==================== */
 #services header h2 {
     margin-bottom: 6rem;
 }
